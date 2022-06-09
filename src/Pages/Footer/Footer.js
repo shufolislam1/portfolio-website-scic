@@ -6,7 +6,7 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='bg-light text-center text-white my-12'>
+    <MDBFooter className='bg-light text-center text-white'>
       <div className='container p-4 pb-0'>
         <section className='mb-4'>
           <a
@@ -55,12 +55,9 @@ export default function App() {
         </section>
       </div>
 
-      {/* <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-white' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
-      </div> */}
+      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        © 2022 Copyright: Shufol Islam . Find me In social media.
+      </div>
     </MDBFooter>
   );
 }

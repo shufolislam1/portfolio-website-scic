@@ -6,8 +6,8 @@ import Typewriter from "typewriter-effect";
 
 const navigation = [
   { name: 'Services', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Contact me', href: '#' },
+  { name: 'Projects', href: '#p', },
+  { name: 'Contact me', href: '#c' },
 ]
 
 export default function Example() {
@@ -100,15 +100,6 @@ export default function Example() {
                 />
                 </span>
               </h1>
-              {/* <div>
-                <Typewriter
-                  options={{
-                    strings: ['Hello', 'World'],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </div> */}
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
