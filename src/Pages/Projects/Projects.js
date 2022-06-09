@@ -29,7 +29,7 @@ const Projects = () => {
                                 rel="noreferrer"
                                 href='https://github.com/shufolislam1/Sawari-server-side'
                             >
-                            <button class="btn btn-primary ml-3">Server Side Code</button>
+                            <button class="btn btn-primary ml-3 mt-2">Server Side Code</button>
                             </a>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Projects = () => {
                                 rel="noreferrer"
                                 href='https://github.com/shufolislam1/sawari-spark-server-side'
                             >
-                            <button class="btn btn-primary ml-3">Server Side Code</button>
+                            <button class="btn btn-primary ml-3 mt-2">Server Side Code</button>
                             </a>
                         </div>
                     </div>
