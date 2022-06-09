@@ -2,6 +2,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import Typewriter from "typewriter-effect";
 
 const navigation = [
   { name: 'Services', href: '#' },
@@ -88,15 +89,26 @@ export default function Example() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Data to enrich your</span>{' '}
-                <span className="block text-indigo-600 xl:inline">online business</span>
+                <span className="block xl:inline">Hello !</span>{' '}
+                <span className="block text-indigo-600 xl:inline">
+                <Typewriter
+                  options={{
+                    strings: ['This is Shufol Islam', 'A Frontend Developer', 'Junior MERN Developer'],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+                </span>
               </h1>
-              <div>
-                <div className='Typewriter' data-testid = "typewriter-wrapper">
-                      <span className='Typewriter__wrapper'></span>
-                      <span className='Typewriter__cursor'>|</span>
-                </div>
-              </div>
+              {/* <div>
+                <Typewriter
+                  options={{
+                    strings: ['Hello', 'World'],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </div> */}
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
