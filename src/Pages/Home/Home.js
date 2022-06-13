@@ -5,7 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Typewriter from "typewriter-effect";
 
 const navigation = [
-  { name: 'Services', href: '#' },
+  { name: 'Skills', href: '#' },
   { name: 'Projects', href: '#p', },
   { name: 'Contact me', href: '#c' },
 ]
@@ -101,10 +101,10 @@ export default function Example() {
                 </span>
               </h1>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
+                <div className="rounded-md shadow animate__animated animate__bounce">
                   <a
                     href="https://drive.google.com/file/d/14hlN4i6FRCJEmcNIAJyCRSdimQKF0UHJ/view?usp=drivesdk"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 animate__animated animate__bounce"
                   >
                     Download Resume
                   </a>

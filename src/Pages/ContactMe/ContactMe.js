@@ -17,11 +17,11 @@ export const ContactUs = () => {
     };
 
     return (
-        <div>
+        <div data-aos="zoom-in-up">
             <h2 className='grid justify-items-center font-bold text-4xl'>Contact Me</h2>
             <form ref={form} onSubmit={sendEmail} id='c'>
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <div class="card flex-shrink-0 max-w-sm shadow-2xl bg-base-100">
                         <div class="card-body">
                             <div>
                                 <input type="text" placeholder="Name" class="input input-bordered" />
